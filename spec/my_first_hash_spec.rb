@@ -1,4 +1,13 @@
-require_relative 'spec_helper'
+def my_first_hash do
+  it expect(my_first_hash).to be_a(hash)
+     expect(my_hash.keys.count).to_not eq(0)
+   end
+  end
+ end
+ 
+ 
+  
+  require_relative 'spec_helper'
 require_relative '../my_first_hash.rb'
 
 
